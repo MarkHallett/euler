@@ -7,12 +7,9 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 def e1(n):
     rtn = 0
     for r in range(n):
-       print 'r',r
        if r%3 == 0:
-           print r
            rtn += r
        elif r%5 == 0:
-           print r
            rtn += r
     return rtn
     
