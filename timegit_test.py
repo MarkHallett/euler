@@ -6,7 +6,7 @@ import euler001
 
 
 def run001(): 
-    euler001.en1()
+    euler001.e1()
 
 def run():
     run001()
