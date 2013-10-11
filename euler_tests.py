@@ -11,12 +11,20 @@ import inspect
 import unittest
 import nose
 
+import euler001
 import euler002
 
 # -----------------
 
 
 class Check_eulers(unittest.TestCase):  
+
+        def test_e1a(self):  
+            self.assertEqual(euler001.e1(10),23)  
+      
+        def test_e1b(self):  
+            self.assertEqual(euler001.e1(1000),233168)  
+      
       
         def test_e2(self):  
             self.assertEqual(euler002.e2(),4613732)  
